@@ -19,4 +19,8 @@ h1{
 /*Regla 4. Los elementos con clase selector tendrán color lightcyan*/
 .selector{
   color: lightcyan;
+/*Regla 5. Los elementos con clase selectors tendrán un relleno de 5%, un border: solid darkcyan 1px; y esquinas redondeadas border-radius con valor de 5px*/
+  padding: 5%;
+  border: solid darkcyan 1px;
+  border-radius: 5px;
 }
