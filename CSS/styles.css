@@ -63,3 +63,33 @@ img{
   border: solid darkcyan 1px; /* Border solid darkcyan 1px */
   border-radius: 5px; /* Esquinas redondeadas con valor de 5px */
 }
+
+
+.container{
+    border: solid darkcyan 1px; 
+    border-radius: 5px;
+}
+.table-container{
+  border-collapse: collapse; /*lineas */
+  text-align: left;
+}
+.table-container td{
+  padding: 13px;
+  font-size: 24px;
+}
+.table-container th{
+  padding: 13px;
+  font-size: 26px;
+  font-weight: bold;
+}
+table{
+  border: 1px solid #bcbdbd;  /* color del borde azul/verdoso */
+  border-radius: 10px !important;
+  padding: 5px;
+  width: 99%;
+  border: 1px solid black;
+  margin: 6px auto; /* 50px de separación arriba y abajo, auto a los lados */
+}
+.color{
+ background-color: #E8E9EB;
+}
