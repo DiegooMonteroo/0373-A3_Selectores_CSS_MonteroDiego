@@ -63,33 +63,34 @@ img{
   border: solid darkcyan 1px; /* Border solid darkcyan 1px */
   border-radius: 5px; /* Esquinas redondeadas con valor de 5px */
 }
-
-
 .container{
-    border: solid darkcyan 1px; 
-    border-radius: 5px;
+    border: solid darkcyan 1px; /* borde sólido de color darkcyan y 1px de grosor */
+    border-radius: 5px; /* esquinas redondeadas con valor de 5px */
 }
 .table-container{
   border-collapse: collapse; /*lineas */
-  text-align: left;
+  text-align: left; /* alineación a la izquierda */
 }
 .table-container td{
-  padding: 13px;
-  font-size: 24px;
+  padding: 13px; /* espacio interno */
+  font-size: 24px; /* tamaño de fuente */
 }
 .table-container th{
-  padding: 13px;
-  font-size: 26px;
-  font-weight: bold;
+  padding: 13px; /* espacio interno */
+  font-size: 26px;  /* tamaño de fuente */
+  font-weight: bold; /* negrita */
 }
 table{
   border: 1px solid #bcbdbd;  /* color del borde azul/verdoso */
-  border-radius: 10px !important;
-  padding: 5px;
-  width: 99%;
+  border-radius: 10px !important; /* esquinas redondeadas */
+  padding: 5px; /* espacio interno */
+  width: 99%; /* ancho del 100% del contenedor */
   border: 1px solid black;
   margin: 6px auto; /* 50px de separación arriba y abajo, auto a los lados */
 }
 .color{
- background-color: #E8E9EB;
+ background-color: #E8E9EB; /* color de fondo gris claro */
+}
+.sub{
+  text-decoration: underline; /* subrayado */
 }
